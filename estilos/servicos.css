@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+html, body, main {
+    margin: 0px;
+    padding: 0px;
+    height: 700vh;
+}
+
+section.container-decoration{
+    display: flex;
+    content: justify;
+    margin: 40px;
+    height: 30vh;
+    width: 80vw;
+    padding: 0px;  
+}
+
+section div#decoration02{
+    background: url('../imagens/decoration02.jpg') center center no-repeat;
+    background-size: contain;
+    width: 150px;
+    margin-right: 0px;
+}
+
+
+div.titulo-servico{
+    height: 30vh;
+    width: 35vw;
+    padding: 20x;
+    margin-top: 8%;
+   
+}
+
+div.titulo-servico h1 {
+    color: rgb(42, 146, 243);
+    text-align: left;
+    margin: 0px 0px 0px -15px;
+    font-size: 1.6em;
+}
+
+
+div.servico h2 {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1em;
+    color: rgb(255, 145, 0);
+    text-shadow: 1px 2px 1px rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+div.servico p {
+    text-align: left;
+    margin: 0px;
+    padding: 10px;
+    text-indent: 0px;
+    font-size: 0.8em;
+    line-height: 15px;
+}
+
+
+section.container{
+    display: flex;
+    content: justify;
+    margin: auto;
+    height: 30vh;
+    width: 70vw;
+    padding: 20px; 
+}
+
+div.imagem {   
+    height: 30vh;
+    width: 50vw;
+    border-radius: 20px 0px 20px 0px;
+}
+
+div.servico{
+    height: 30vh;
+    width: 35vw;
+    padding: 0px;
+    margin: auto;
+    text-align: justify;
+}
+
+
+
+
+section div#img01{
+    background: url('../imagens/001-abertura-residencial.png') top center;
+    background-size: cover;
+}
+
+section div#img02{
+    background: url('../imagens/002-abertura-veicular.jpg') bottom right;
+    background-size: cover;    
+}
+
+section div#img03{
+    background: url('../imagens/003-fechadura-digital-embutir.jpg') center center;
+    background-size: cover;    
+}
+
+section div#img04{
+    background: url('../imagens/004-fechadura-digital.jpg') center center;
+    background-size: cover;    
+}
+
+section div#img05{
+    background: url('../imagens/005-tetra.jpg') left center;
+    background-size: cover;    
+}
+
+section div#img06{
+    background: url('../imagens/006-copias.jpg') left center;
+    background-size: cover;    
+}
+
+section div#img07{
+    background: url('../imagens/007-unificacao.jpg') center center;
+    background-size: cover;    
+}
+
+section div#img08{
+    background: url('../imagens/008-troca-de-segredos.jpg') center center;
+    background-size: cover;    
+}
+
+section div#img09{
+    background: url('../imagens/009-controle.jpg') top center;
+    background-size: cover;    
+}
+
+section div#img011{
+    background: url('../imagens/011-abertura-de-caminhão.jpg') center center;
+    background-size: cover;    
+}
+
+section div#img010{
+    background: url('../imagens/010-olho-magico.jpg') center center;
+    background-size: cover;    
+}
+
+section div#img012{
+    background: url('../imagens/012-copia-de-chave-quebrada.jpg') center center;
+    background-size: cover;    
+}
+
+p#gradiente{
+
+   text-align: center;
+   margin: auto;
+   padding: 30px;
+   background-image: linear-gradient(to left, rgb(63, 5, 90),rgba(1, 159, 250, 0.973));
+   color: white;
+   font-size: 1.5em;
+
+}
+
+
+
+
