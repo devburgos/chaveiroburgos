@@ -14,7 +14,7 @@
 html, body, main{
     margin: 0px;
     padding: 0px;
-    height: 300vh;
+    height: 260vh;
 }
 
 
@@ -32,7 +32,7 @@ section.container-contatos{
     margin: 20px auto;
     height: 15vh;
     width: 400px;
-    padding: 0px; 
+    padding: 0px 0px 0px 10px; 
 }
 
 section div.imagem{
@@ -45,7 +45,7 @@ section div.imagem{
 
 div.box-informacao{
     height: 10vh;
-    width: 50vw;
+    width: 55vw;
    text-align: center;
    padding: 0px;
    margin: 0px;
@@ -56,7 +56,7 @@ div.box-informacao{
 h1.informacao{
     color: var(--cor2);
     font-family: var(--font-padrão);
-    font-size: 1.2em;
+    font-size: 0.8em;
     font-weight: lighter;
     margin: 30px 0px 0px 20px ;
     padding: 10px;
@@ -135,10 +135,10 @@ section#imagem{
     margin-top: -30px;
 }
 h1#titulo{
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: lighter;
     width: 70vw;
-    padding: 18px 10px 0px 10px;
+    padding: 25px 10px 0px 10px;
     color: var(--cor2);
     text-shadow: none;  
 }
@@ -148,7 +148,7 @@ h1#titulo:hover{
 
 section#redes-sociais {
     display:flex;
-    width: 400px;
+    width: 390px;
     margin: -30px auto 0px auto; 
 
 }
@@ -168,7 +168,7 @@ img{
 }
 
 #box-redes {
-    max-width:800px;
+    max-width:500px;
     margin: auto;
     background: url('../imagens/fundo-contatos.jpg') bottom left ;
     border-radius: 50px 65px 2px 30px;
