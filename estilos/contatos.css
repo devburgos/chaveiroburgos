@@ -14,7 +14,7 @@
 html, body, main{
     margin: 0px;
     padding: 0px;
-    height: 260vh;
+    height: 230vh;
 }
 
 
@@ -45,7 +45,7 @@ section div.imagem{
 
 div.box-informacao{
     height: 10vh;
-    width: 55vw;
+    width: 50vw;
    text-align: center;
    padding: 0px;
    margin: 0px;
@@ -79,8 +79,8 @@ div#img-telefone{
 
 #n-telefone{
     font-family: var(--font-padrão);
-    font-size: 1.8em;
-    font-weight: bolder;
+    font-size: 1em;
+    font-weight: bold;
     margin: 20px 0px 0px 20px ;
     background-image:linear-gradient(to right, rgb(228, 26, 12), rgba(16, 33, 180, 0.671));    
 }
@@ -108,7 +108,7 @@ div#img-email{
 } 
 
 #end-email{
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 
@@ -116,7 +116,7 @@ section#container-titulo{
     display: flex;
     content: left;
     height: 10vh;
-    max-width: 600px;
+    max-width: 470px;
     margin: 100px auto ;
       
     background-image:linear-gradient(to right, rgb(16, 23, 97), rgba(151, 151, 243, 0.979));
@@ -134,21 +134,11 @@ section#imagem{
     margin-left: 30px;
     margin-top: -30px;
 }
-h1#titulo{
-    font-size: 1em;
-    font-weight: lighter;
-    width: 70vw;
-    padding: 25px 10px 0px 10px;
-    color: var(--cor2);
-    text-shadow: none;  
-}
-h1#titulo:hover{
-    padding: 25px 5px 0px 15px ;
-}
+
 
 section#redes-sociais {
     display:flex;
-    width: 390px;
+    width: 370px;
     margin: -30px auto 0px auto; 
 
 }
@@ -167,8 +157,20 @@ img{
    
 }
 
+h1#titulo{
+    font-size: 1em;
+    font-weight: lighter;
+    width: 70vw;
+    padding: 25px 10px 0px 10px;
+    color: var(--cor2);
+    text-shadow: none;  
+}
+h1#titulo:hover{
+    padding: 25px 5px 0px 15px ;
+}
+
 #box-redes {
-    max-width:500px;
+    max-width:370px;
     margin: auto;
     background: url('../imagens/fundo-contatos.jpg') bottom left ;
     border-radius: 50px 65px 2px 30px;
