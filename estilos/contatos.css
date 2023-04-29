@@ -14,14 +14,14 @@
 html, body, main{
     margin: 0px;
     padding: 0px;
-    height: 220vh;
+    height: 235vh;
     width: 100vw;
 }
 
 
 
 section div.imagem{
-    width: 20vw;
+   width: 20vw;
    align-items: right;
    padding: 0px;
    margin: 0px;
@@ -37,7 +37,7 @@ section.container-contatos{
 }
 
 section div.imagem{
-    width: 20vw;
+   width: 20vw;
    align-items: right;
    padding: 0px;
    margin: 0px;
