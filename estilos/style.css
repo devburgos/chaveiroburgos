@@ -156,9 +156,7 @@ iframe#mapa {
 
 footer{
     height:60vh;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    float: bottom;
+    bottom: 0;
     background:url('../imagens/fundo-01.jpg') top right no-repeat;
     background-size:cover;
     text-align: center;     
