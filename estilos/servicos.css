@@ -3,7 +3,7 @@
 html, body, main {
     margin: 0px;
     padding: 0px;
-    height: 690vh;
+    height: 670vh;
 }
 
 section.container-decoration{
@@ -146,13 +146,13 @@ section div#img012{
 }
 
 p#gradiente{
-
    text-align: center;
-   margin: auto;
-   padding: 30px;
+   margin: 10px auto;
+   padding: 30px 0px;
    background-image: linear-gradient(to left, rgb(63, 5, 90),rgba(1, 159, 250, 0.973));
    color: white;
    font-size: 1.5em;
+   border-radius: 5px;
 
 }
 
