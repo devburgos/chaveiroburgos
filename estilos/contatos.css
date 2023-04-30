@@ -125,39 +125,6 @@ section#container-titulo{
     border: 0.5px solid var(--cor3);
 }
 
-section#imagem{
-    background: url('../imagens/decoration-03.png') center center no-repeat;
-    background-size: contain;
-    height: 20vh;
-    width: 40vw;
-
-    margin: auto;    
-    margin-left: 10px;
-    margin-top: -20px;
-}
-
-
-section#redes-sociais {
-    display:flex;
-    width: 370px;
-    margin: -30px auto 0px auto; 
-
-}
-
-section#redes-sociais img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.616) ;
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
-    transition: transform .3s border 2s;
-}
-
-img{   
-    width: 120px; 
-    text-align: center;
-    border-radius: 30px;
-   
-}
-
 h1#titulo{
     font-size: 1em;
     font-weight: lighter;
@@ -170,10 +137,50 @@ h1#titulo:hover{
     padding: 25px 5px 0px 15px ;
 }
 
-#box-redes {
-    max-width:370px;
-    margin: auto;
-    background: url('../imagens/fundo-contatos.jpg') bottom left ;
-    border-radius: 50px 65px 2px 30px;
+section#imagem{
+    background: url('../imagens/decoration-03.png') center center no-repeat;
+    background-size: contain;
+    height: 20vh;
+    width: 40vw;
+
+    margin: auto;    
+    margin-left: 10px;
+    margin-top: -25px;
 }
+
+
+section#redes-sociais {
+    display:flex;
+    width: 370px;
+    margin: -30px auto 0px auto; 
+
+}
+
+#box-redes {
+    min-width:370px;
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 5px 0px 5px;
+    background: url('../imagens/fundo-contatos.jpg') bottom right ;
+    border-radius: 10px 45px 2px 30px;
+}
+
+img{   
+    width: 120px; 
+    text-align: center;
+    border-radius: 30px;
+   
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.616) ;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    transition: transform .3s border 2s;
+}
+
+
+
+
+
 
