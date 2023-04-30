@@ -32,6 +32,8 @@ html, body {
 
 body {
     font-family: var(--font-padrão);
+    background: url('../imagens/fundo-body-claro.jpg' ) no-repeat left top 100vh;
+    background-size: contain;
     
 }
 
