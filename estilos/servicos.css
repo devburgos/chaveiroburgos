@@ -141,8 +141,8 @@ section div#img010{
 }
 
 section div#img012{
-    background: url('../imagens/012-copia-de-chave-quebrada.jpg') center center;
-    background-size: cover;    
+    background: url('../imagens/012-copia-de-chave-quebrada.jpg') center center no-repeat;
+    background-size: contain;    
 }
 
 p#gradiente{
