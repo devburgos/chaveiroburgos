@@ -16,10 +16,11 @@ section.container-decoration{
 }
 
 section div#decoration02{
-    background: url('../imagens/decoration02.jpg') center center no-repeat;
+    background: url('../imagens/decoration-02.png') center center no-repeat;
     background-size: contain;
     width: 150px;
     margin-right: 0px;
+    border: none;
 }
 
 
@@ -71,6 +72,7 @@ section.container{
 div.imagem {   
     height: 30vh;
     width: 50vw;
+    border: 1px solid rgba(202, 108, 20, 0.822);
     border-radius: 20px 0px 20px 0px;
 }
 

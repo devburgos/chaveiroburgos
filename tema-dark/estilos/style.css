@@ -30,6 +30,7 @@ html, body {
     height: 100vh;
     width: 100vw;
     background-color: var(--cor5);
+
    
 }
 
@@ -72,7 +73,6 @@ section#cabecalho nav > a:hover{
     color: var(--cor3);
 }
 
-
 nav a#tema-white img, nav a#tema-dark img{
     border-radius: 50%;
     width: 13px;
@@ -88,6 +88,7 @@ nav a#tema-white img:hover {
     width: 15px;
 
 }
+
 
 
 

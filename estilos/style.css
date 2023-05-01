@@ -69,6 +69,23 @@ section#cabecalho nav > a:hover{
     color: var(--cor3);
 }
 
+
+nav a#tema-white img, nav a#tema-dark img{
+    border-radius: 50%;
+    width: 13px;
+    margin: auto -10px auto -10px;
+}
+
+nav a#tema-white img {
+    border: 1px solid var(--cor3);
+}
+
+nav a#tema-dark img:hover {
+    border: 3px solid var(--cor3);
+    width: 15px;
+
+}
+
 h1 {
     padding: 30px 0px 30px 0px;
     text-shadow: 1px 2px 1px black;
@@ -112,7 +129,7 @@ section#texto{
 
 
 #destaque-texto {
-    background:url('../imagens/decoration-01.jpg')center center no-repeat;
+    background:url('../imagens/decoration-01.png')center center no-repeat;
     background-size:contain;
     padding: 40px;
     width: 140px;
@@ -170,6 +187,7 @@ footer div p, footer div p a, footer div h2, footer div h2 a{
     margin: auto;
 
 }
+
 
 a:hover {
     color: var(--cor3);
