@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: rgba(38, 38, 235, 0.308);
+    --cor1: rgba(57, 32, 199, 0.973);
+    --cor2: rgb(255, 255, 255);
+    --cor3: rgb(238, 40, 5);
+    --cor4: rgb(15, 141, 46);
+    --font-padrão: 'Play', sans-serif;
+    --font-titulos:'Artifika', sans-serif;
+    --font-destaque:'Audiowide', cursive, sans-serif;
+}
+
+html, body, main{
+    margin: 0px;
+    padding: 0px;
+    height: 235vh;
+    width: 100vw;
+}
+
+
+
+section div.imagem{
+   width: 20vw;
+   align-items: right;
+   padding: 0px;
+   margin: 0px;
+}
+
+section.container-contatos{
+    display: flex;
+    content: justify;
+    margin: 20px auto;
+    height: 15vh;
+    width: 370px;
+    padding: 0px 0px 0px 10px; 
+}
+
+section div.imagem{
+   width: 20vw;
+   align-items: right;
+   padding: 0px;
+   margin: 0px;
+}
+
+
+div.box-informacao{
+    height: 10vh;
+    width: 50vw;
+   text-align: center;
+   padding: 0px;
+   margin: 0px;
+   
+}
+
+
+h1.informacao{
+    color: var(--cor2);
+    font-family: var(--font-padrão);
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin: 30px 0px 0px 20px ;
+    padding: 10px;
+    background-image:linear-gradient(to right, rgb(16, 23, 97), rgba(151, 151, 243, 0.979));
+    border-radius: 50px;
+    border: 1px solid blue;
+    text-shadow: none;
+}
+
+h1.informacao:hover{
+    background-image:linear-gradient(to right, rgb(228, 26, 12), rgba(16, 33, 180, 0.671));
+    margin: 35px 0px 0px 25px ;
+    padding: 12px;
+}
+
+div#img-telefone{
+    background: url('../imagens/telefone.png') center center no-repeat;
+    background-size: contain;
+}
+
+#n-telefone{
+    font-family: var(--font-padrão);
+    font-size: 1em;
+    font-weight: bold;   
+    margin: 20px 0px 0px 20px ;
+    background-image:linear-gradient(to right, rgb(228, 26, 12), rgba(16, 33, 180, 0.671));    
+}
+
+
+
+div#img-whatsapp{
+    background: url('../imagens/whatsapp.png') center center no-repeat;
+    background-size: contain;
+} 
+
+ a.link {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+div#img-telegram{
+    background: url('../imagens/telegram.png') center center no-repeat;
+    background-size: contain;
+} 
+
+div#img-email{
+    background: url('../imagens/email.png') center center no-repeat;
+    background-size: contain;
+} 
+
+#end-email{
+    font-size: 0.8em;
+}
+
+
+section#container-titulo{
+    display: flex;
+    content: left;
+    height: 10vh;
+    max-width: 470px;
+    margin: 100px auto;
+      
+    background-image:linear-gradient(to right, rgb(16, 23, 97), rgba(151, 151, 243, 0.979));
+    border-radius: 20px 90px 5px 45px ;
+    border: 0.5px solid var(--cor3);
+}
+
+h1#titulo{
+    font-size: 1em;
+    font-weight: lighter;
+    width: 70vw;
+    padding: 15px 10px 0px 10px;
+    color: var(--cor2);
+    text-shadow: none;  
+}
+h1#titulo:hover{
+    padding: 25px 5px 0px 15px ;
+}
+
+section#imagem{
+    background: url('../imagens/decoration-03.png') center center no-repeat;
+    background-size: contain;
+    height: 20vh;
+    width: 40vw;
+
+    margin: auto;    
+    margin-left: 10px;
+    margin-top: -25px;
+}
+
+
+section#redes-sociais {
+    display:flex;
+    width: 370px;
+    margin: -30px auto 0px auto; 
+
+}
+
+#box-redes {
+    min-width:370px;
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 5px 0px 5px;
+    background: url('../imagens/fundo-contatos.jpg') bottom right ;
+    border-radius: 10px 45px 2px 30px;
+}
+
+img{   
+    width: 120px; 
+    text-align: center;
+    border-radius: 30px;
+   
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.616) ;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    transition: transform .3s border 2s;
+}
+
+
+
+
+
+
