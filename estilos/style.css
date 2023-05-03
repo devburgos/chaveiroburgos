@@ -73,7 +73,7 @@ section#cabecalho nav > a:hover{
 nav a#botao-tema img{
     border-radius: 50%;
     width: 13px;
-    margin: 13px 0px auto 0px;
+    margin: 16px 0px auto 0px;
     border: 1px solid var(--cor3);
 }
 
