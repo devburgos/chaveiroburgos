@@ -42,14 +42,14 @@ body p{
 
 nav {
     width: 100vw;
+    height: 47px;
     background-color:var(--cor-03);
     position: fixed;
 }
 
 #box-tema-contatos{
     display: flex;   
-    width: 370px;
-    height: 35px;
+    width: 390px;
     margin: auto;
     padding-top: 10px;
     text-align: center; 
@@ -60,7 +60,7 @@ nav {
 }
 
 #box-botao-tema{
-    width: 150px;
+    width: 140px;
    text-align: left;
    padding-left: 20px;
 }
@@ -107,7 +107,7 @@ section#cabecalho{
  div#logo{
     width: 80px;
     height: 80px;
-    margin: 67px auto 17.5px 0px;
+    margin: 67px 20px 17.5px 0px;
     background: url('../imagens/logo.png') center center no-repeat;
     background-size: contain;
 }
@@ -225,7 +225,7 @@ div#paralax p{
     display: flex;
     content: justify;
     margin: 60px auto 0px auto;
-    width: 400px;
+    width: 390px;
  }
 
  #img-decoration {
@@ -300,11 +300,11 @@ div#paralax p{
  }
 
  div.extras{
-   max-width: 600px;
+   max-width: 620px;
     background-color: rgb(236, 233, 230);
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 25px;
     text-indent: 30px;
     padding: 20px;
@@ -312,7 +312,7 @@ div#paralax p{
 
  div.extras p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 25px;
     text-indent: 30px;
    }
@@ -336,7 +336,7 @@ div#paralax p{
  div#sessao-dicas ul li{
     width: 360px;
     margin:auto;
-    padding: 10px;
+    padding: 20px;
     text-indent: 0px;
  }
 
