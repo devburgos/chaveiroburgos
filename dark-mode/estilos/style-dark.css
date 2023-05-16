@@ -140,7 +140,7 @@ main {
     background: rgb(0, 0, 0);
     box-shadow:1px 2px 3px rgba(116, 116, 116, 0.589);
     max-width: 700px;
-    max-height: 23000px;
+    max-height: 30000px;
     margin: 5px auto 80px;
     padding: 5px 0px 20px 0px;
     border-radius: 2px 2px 10px 10px;
@@ -336,7 +336,7 @@ div#paralax p{
  }
 
  div#sessao-dicas ul li{
-    width: 350px;
+    width: 320px;
     margin:auto;
     padding: 20px;
     text-indent: 0px;
