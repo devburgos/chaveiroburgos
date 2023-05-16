@@ -154,7 +154,7 @@ div#formas-pagamento{
 }
 
 div#paralax{
-    background: url('/imagens/paralax.jpg') left top no-repeat;
+    background: url('imagens/paralax.jpg') left top no-repeat;
     background-size: cover;
     background-attachment: fixed ;
     max-width: 700px; 
