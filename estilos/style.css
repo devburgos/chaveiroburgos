@@ -376,7 +376,7 @@ div#paralax p{
  footer p{
     color: var(--cor-00);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
     margin: -20px auto;    
  }
