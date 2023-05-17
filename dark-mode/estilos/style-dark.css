@@ -139,7 +139,7 @@ main {
     max-width: 700px;
     max-height: 40000px;
     margin: 5px auto 80px;
-    padding: 5px 10px 20px 10px;
+    padding: 5px 3px 20px 3px;
     border-radius: 2px 2px 10px 10px;
     
 }
@@ -256,7 +256,7 @@ div#paralax p{
  
  section#servicos img{
     width: 360px;
-    display: block;
+    display: flex;
     margin: auto;
     border-radius: 5px;
     box-shadow: 1px 2px 3px rgba(231, 230, 230, 0.288);
