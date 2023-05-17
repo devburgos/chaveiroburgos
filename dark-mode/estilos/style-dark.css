@@ -106,7 +106,7 @@ section#cabecalho{
  div#logo{
     width: 80px;
     height: 80px;
-    margin: 67px 0px 17.5px -20px;
+    margin: 72px 20px 17.5px 0px;
     background: url('../imagens/logo-orange.png') center center no-repeat;
     background-size: contain;
 }
@@ -116,15 +116,14 @@ div#titulo{
     padding: 0px;
     font-family: 'Nova Square', cursive;
     font-size: 40px;
-    text-align: center;
+    text-align: left;
     color:  rgb(250, 88, 13);
     text-shadow: 1px 3px 3px rgb(3, 3, 3);
     
 }
 
 h1#pequeno {
-   margin: auto;
-   margin-bottom: -5px;
+   margin: 0px 0px -5px -10px ; 
    padding: 0px 0px 0px 13px;
    font-size: 20.4px;
    letter-spacing: 19px;
