@@ -320,18 +320,6 @@ div#paralax p{
     text-align: center;
  } 
 
- div.esconder{
-   display: none;
-} 
-
-#sessao-dicas:hover div.esconder {
-    display: block;
- } 
-
- #sessao-sobre-nos:hover div.esconder {
-   display: block;
-} 
-
  div#sessao-dicas ul li{
     width: 320px;
     margin:auto;
