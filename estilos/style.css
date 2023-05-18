@@ -193,6 +193,7 @@ div#paralax p{
     background-image: linear-gradient(to right, rgb(2, 2, 221), rgb(255, 78, 50));
     border-radius: 20px 0px 20px 0px;  
     margin: 20px 0px 70px 0px;
+    padding-bottom: 20px;
  }
 
  .curiosidade p{
@@ -250,7 +251,8 @@ div#paralax p{
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.137);
  }
 
- div.servico, div.extras{   
+ div.servico, 
+ div.extras{   
     border:1px solid rgb(211, 211, 210);
     border-radius: 20px;
     max-width: 620px;
@@ -313,9 +315,22 @@ div#paralax p{
     text-indent: 0px;
  }
 
- div#sessao-dicas p.centralizado, .centralizado{
+ div#sessao-dicas p.centralizado, 
+ .centralizado{
     text-align: center;
  } 
+
+ div.esconder{
+   display: none;
+} 
+
+#sessao-dicas:hover div.esconder {
+    display: block;
+ } 
+
+ #sessao-sobre-nos:hover div.esconder {
+   display: block;
+} 
 
  div#sessao-dicas ul li{
     width: 320px;
@@ -323,6 +338,7 @@ div#paralax p{
     padding: 20px;
     text-indent: 0px;
  }
+
 
  a{
     text-decoration: none;
@@ -349,7 +365,6 @@ div#paralax p{
  div#sessao-sobre-nos{
    border-radius:0px 30px 0px 30px;
  }
-
 
 
  footer{

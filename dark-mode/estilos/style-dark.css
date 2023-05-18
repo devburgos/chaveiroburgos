@@ -202,7 +202,7 @@ div#paralax p{
     background-image: linear-gradient(to right, rgb(2, 2, 221), rgb(255, 78, 50));
     border-radius: 20px 0px 20px 0px;  
     margin: 20px 0px 70px 0px;
-
+    padding-bottom: 20px;
  }
 
  .curiosidade p{
@@ -262,7 +262,8 @@ div#paralax p{
     box-shadow: 1px 2px 3px rgba(231, 230, 230, 0.288);
  }
 
- div.servico, div.extras{   
+ div.servico, 
+ div.extras{   
     border:1px solid rgb(145, 60, 21);
     border-radius: 20px;
     max-width: 620px;
@@ -328,7 +329,8 @@ div#paralax p{
     text-indent: 0px;
  }
 
- div#sessao-dicas p.centralizado, .centralizado{
+ div#sessao-dicas p.centralizado, 
+ .centralizado{
     text-align: center;
  }
 
